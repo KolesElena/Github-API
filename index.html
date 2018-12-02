@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Github Users</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css" type="text/css">
+    
+  </head>
+  <body class="bg-light text-dark">
+    <div id="container" class="card container shadow-lg p-4 mb-4 bg-white">
+    <form id="userForm" class="d-flex mt-3 mb-3">
+      <input type="text" id="inputVal" class="form-control" required placeholder="search username...">
+      <button type="submit" class="btn ml-3">Search</button>
+        </form>             
+     <p id="errors" class="errors"></p>
+        <div id="result">
+            <div class="d-flex" id="userBox"></div>
+           <h2>Repositories</h2>
+          <ul class="list-group" id="result-list">
+             
+          </ul>
+        </div>
+      </div>
+      
+       <script src="script.js"></script>
+  </body>
+</html>
